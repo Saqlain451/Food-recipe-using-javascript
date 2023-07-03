@@ -1,4 +1,4 @@
-# Food-recipe-using-javascript
+
 # EAT RIGHT SMILE BRIGHT.
 
 Are you feeling bored by watching youtube/Netflix/amazon prime? Wanna make something but do have not any idea to cook it? Then it's for you.
