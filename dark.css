@@ -1,0 +1,142 @@
+.dark {
+  background-color: #0a0a0a;
+}
+
+.dark header {
+  background-color: #0a0a0a;
+  box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+}
+
+.dark header .fa-solid {
+  background-color: #0a0a0a;
+  box-shadow: 6px 6px 12px #171818, -6px -6px 12px #000000;
+}
+
+.dark .search-bar {
+  background-color: #0a0a0a;
+}
+
+.dark .search-bar input {
+  box-shadow: 6px 6px 12px #171818, -6px -6px 12px #000000;
+  color: var(--color-green);
+  caret-color: var(--color-green);
+  font-weight: bold;
+}
+
+.dark .search-bar button {
+  box-shadow: 6px 6px 12px #171818, -6px -6px 12px #000000;
+  background-color: var(--color-green);
+  color: #0a0a0a;
+}
+
+.dark .search-bar button:hover {
+  background-color: #0a0a0a;
+  color: var(--color-green);
+}
+
+.dark .search-buttons{
+  background-color: #0a0a0a;
+}
+
+.dark .search-buttons .btn {
+  box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+  color: var(--color-green);
+  font-weight: bold;
+}
+.dark section {
+  padding: 5rem 10rem;
+  background-color: #0a0a0a;
+}
+
+.dark .card {
+  background-color: #0a0a0a;
+  box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+}
+.dark .card-title {
+  color: var(--color-green);
+}
+
+.dark .card-btns .btn-country,
+.dark .card-btns .btn-recipe {
+  background-color: #0a0a0a;
+  box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+}
+
+.dark .res {
+  background-color: #0a0a0a;
+  box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+}
+
+.dark .box-wrapper .box {
+  background-color: #0a0a0a;
+  box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+  color: var(--color-blue);
+}
+.dark .btn-back, .dark .btn-view {
+  background-color: #0a0a0a;
+  box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+  color: var(--color-blue);
+}
+
+.dark .btn-view a {
+  color: var(--color-blue);
+}
+
+@media (width<=1200px) {
+  .dark header,
+  .dark section {
+    padding: 5rem 4rem;
+  }
+  .dark .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width<=750px) {
+  .dark .search-bar input {
+    width: 60%;
+  }
+  .dark .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dark .res {
+    grid-template-columns: auto;
+  }
+
+  .dark .res img {
+    width: 98%;
+    height: auto;
+  }
+  .dark .res .box-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width<=470px) {
+  .dark header {
+    padding: 0rem 2rem;
+  }
+  .dark section {
+    padding: 5rem 2rem;
+  }
+  .dark header .fa-solid {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.8rem;
+  }
+  .dark .search-bar input {
+    width: 73%;
+  }
+
+  .dark .card-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .dark .card-wrapper .card {
+    display: block;
+    margin: 1rem auto;
+  }
+}
