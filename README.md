@@ -55,10 +55,7 @@ You will see the text "Search data is not found..."
 ## How to Run :
 In the project directory, you can run:
 
-Download the repo and run it any browser
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Download the repo and run it on any browser
 
 <br />
 
