@@ -5,7 +5,7 @@ Are you feeling bored by watching youtube/Netflix/amazon prime? Wanna make somet
 This app will show you the required ingredients and recipes and help you to make delicious food.
 
 
-Checkout the live Website [here](https://saqlain-recipe.netlify.app/)
+Checkout the live Website [here](https://saqlain451.github.io/Food-recipe-using-javascript/)
 
 <br/>
 
